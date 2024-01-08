@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    box-sizing: border-box ;
+    color: white;
+}
+html,body{
+height: 100%;
+padding-left: 20px;
+    padding-right: 20px;
+width: 100%;
+background-color: black;
+}
+
+.navbar{
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+}
+
+.panel li{
+    list-style: none;
+    text-transform: uppercase;
+}
+.panel{
+    display: flex;
+    gap: 3rem;
+}
+.mainpanel{
+    height: 80%;
+   padding-top: 12px;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    font-weight: lighter;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 49%;
+}
+
+.ghr{
+    display: flex;
+    flex-direction: column;
+}
+
+.hrsection{
+    justify-content: space-between;
+    display: flex;
+}
+
+.hre2{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+
+#hre{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+
+.left h1 span img{
+    height: 42px;
+    width: 58px;
+    padding: 0px;
+    border-radius: 50%;
+}
+.right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 51%;
+}
+.right img{
+    height: 80%;
+    width: 85%;
+    border-radius: 10%;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+.box{
+    height: 280px;
+    border-radius: 23px;
+    width: 340px;
+    border: 2px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+.scrollbtn p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
