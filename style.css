@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0px;
-    box-sizing: border-box ;
+    box-sizing: border-box;
     color: white;
 }
-html,body{
-height: 100%;
-padding-left: 20px;
+
+html,
+body {
+    height: 100%;
+    padding-left: 20px;
     padding-right: 20px;
-width: 100%;
-background-color: black;
+    width: 100%;
+    background-color: black;
 }
 
-.navbar{
+.navbar {
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid white;
@@ -21,21 +23,27 @@ background-color: black;
     width: 100%;
 }
 
-.panel li{
+.panel li {
     list-style: none;
     text-transform: uppercase;
 }
-.panel{
+
+.panel {
     display: flex;
     gap: 3rem;
 }
-.mainpanel{
+
+.menu {
+    display: none;
+}
+
+.mainpanel {
     height: 80%;
-   padding-top: 12px;
+    padding-top: 12px;
     display: flex;
 }
 
-.left{
+.left {
     display: flex;
     font-weight: lighter;
     justify-content: center;
@@ -45,47 +53,49 @@ background-color: black;
     width: 49%;
 }
 
-.ghr{
+.ghr {
     display: flex;
     flex-direction: column;
 }
 
-.hrsection{
+.hrsection {
     justify-content: space-between;
     display: flex;
 }
 
-.hre2{
+.hre2 {
     font-size: 15px;
     text-transform: uppercase;
     padding-top: 12px;
 }
 
-#hre{
+#hre {
     font-size: 15px;
     text-transform: uppercase;
     padding-top: 12px;
 }
 
-.left h1 span img{
+.left h1 span img {
     height: 42px;
     width: 58px;
     padding: 0px;
     border-radius: 50%;
 }
-.right{
+
+.right {
     justify-content: center;
     align-items: center;
     display: flex;
     width: 51%;
 }
-.right img{
+
+.right img {
     height: 80%;
     width: 85%;
     border-radius: 10%;
 }
 
-.page2{
+.page2 {
     height: 100%;
     width: 100%;
     background-color: black;
@@ -94,7 +104,8 @@ background-color: black;
     justify-content: center;
     gap: 7rem;
 }
-.box{
+
+.box {
     height: 280px;
     border-radius: 23px;
     width: 340px;
@@ -105,8 +116,53 @@ background-color: black;
     background-color: blue;
 }
 
-.scrollbtn p{
+.scrollbtn p {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+@media (max-width:900px) {
+    .panel li {
+        display: none;
+    }
+
+    .signin {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .mainpanel {
+        display: flex;
+        flex-direction: column;
+        padding-top: 34px;
+    }
+
+    #new {
+        border: 1.5px dotted;
+        margin-top: 13px;
+        width: 100%;
+    }
+
+    .left h1 {
+        flex-wrap: wrap;
+        display: flex;
+        font-size: 1.2em;
+    }
+
+    .left h1 span img {
+        display: none;
+    }
+
+    .ghr{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hre {
+        padding-top: 23px;
+    }
 }
